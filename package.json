@@ -1,0 +1,68 @@
+{
+  "name": "Helping the Hotties - Official Game Website",
+  "version": "1.0.0",
+  "description": "免费视觉小说游戏下载官网 - 参考GOG设计风格",
+  "url": "https://helpingthehotties.com",
+  "author": {
+    "name": "xRedGames",
+    "url": "https://www.gog.com/en/game/helping_the_hotties"
+  },
+  "deployment": {
+    "hosting": "Cloudflare Pages / Vercel / GitHub Pages",
+    "ssl": "必须启用 HTTPS",
+    "compression": "启用 GZIP 压缩",
+    "cdn": "推荐使用 Cloudflare CDN"
+  },
+  "seo": {
+    "sitemap": "/sitemap.xml",
+    "robots": "/robots.txt",
+    "canonical": "https://helpingthehotties.com/",
+    "schema": "SoftwareApplication (JSON-LD)",
+    "openGraph": "已配置"
+  },
+  "performance": {
+    "minify_css": true,
+    "minify_js": true,
+    "lazy_load_images": true,
+    "cache_strategy": "aggressive"
+  },
+  "analytics": {
+    "google_analytics": "需要配置 UA-XXXXXXXXX-X",
+    "search_console": "需要在 GSC 中验证",
+    "events_tracking": [
+      "download_full",
+      "download_demo",
+      "download_portable",
+      "download_collection"
+    ]
+  },
+  "files": {
+    "main": "index.html",
+    "sitemap": "sitemap.xml",
+    "robots": "robots.txt",
+    "htaccess": ".htaccess",
+    "readme": "README.md",
+    "seo_guide": "SEO-GUIDE.md",
+    "package_json": "package.json"
+  },
+  "keywords": [
+    "Helping the Hotties 下载",
+    "视觉小说游戏",
+    "成人游戏下载",
+    "免费游戏下载",
+    "DRM-Free游戏",
+    "RPG游戏下载",
+    "视觉小说下载",
+    "Helping the Hotties 中文版"
+  ],
+  "social_media": {
+    "twitter": "xRedGames",
+    "discord": "游戏社区链接",
+    "reddit": "r/visualnovels"
+  },
+  "contact": {
+    "email": "support@helpingthehotties.com",
+    "website": "https://helpingthehotties.com",
+    "gog_page": "https://www.gog.com/en/game/helping_the_hotties"
+  }
+}
