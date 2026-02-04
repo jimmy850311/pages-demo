@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contáctenos en Helping the Hotties. Envíe preguntas, sugerencias o soporte técnico.">
+  <meta name="keywords" content="Helping the Hotties contacto, formulario de soporte, retroalimentación">
+  <meta property="og:title" content="Contacto - Helping the Hotties">
+  <meta property="og:url" content="https://helpingthehotties.com/es/contact/">
+  <meta property="og:site_name" content="Helping the Hotties">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="zh_CN">
+  <meta property="og:locale:alternate" content="ja_JP">
+  <meta name="robots" content="index, follow">
+  
+  <link rel="alternate" hreflang="en" href="https://helpingthehotties.com/contact/" />
+  <link rel="alternate" hreflang="zh" href="https://helpingthehotties.com/zh/contact/" />
+  <link rel="alternate" hreflang="es" href="https://helpingthehotties.com/es/contact/" />
+  <link rel="alternate" hreflang="ja" href="https://helpingthehotties.com/ja/contact/" />
+  <link rel="alternate" hreflang="x-default" href="https://helpingthehotties.com/contact/" />
+  <link rel="canonical" href="https://helpingthehotties.com/es/contact/" />
+
+  <title>Contacto - Helping the Hotties</title>
+  <link rel="stylesheet" href="../../styles.css">
+  <style>
+    .contact-form {
+      max-width: 600px;
+      margin: 0 auto;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 40px;
+    }
+    .form-group {
+      margin-bottom: 24px;
+    }
+    .form-group label {
+      display: block;
+      margin-bottom: 8px;
+      color: var(--text);
+      font-weight: 600;
+    }
+    .form-group input,
+    .form-group textarea,
+    .form-group select {
+      width: 100%;
+      padding: 12px;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      color: var(--text);
+      font-family: inherit;
+      font-size: 14px;
+    }
+    .form-group input:focus,
+    .form-group textarea:focus,
+    .form-group select:focus {
+      outline: none;
+      border-color: var(--primary);
+    }
+    .form-group textarea {
+      resize: vertical;
+      min-height: 150px;
+    }
+    .submit-btn {
+      width: 100%;
+      padding: 14px;
+      background: var(--primary);
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s;
+    }
+  </style>
+</head>
+<body>
+  <nav class="nav">
+    <div class="container">
+      <div class="nav-content">
+        <a href="/es/" class="logo">
+          <span>🎮</span>
+          <span>Helping the Hotties</span>
+        </a>
+        <div class="nav-menu">
+          <a href="/es/#features" class="nav-link">Características</a>
+          <a href="/es/#characters" class="nav-link">Personajes</a>
+          <a href="/es/#download" class="nav-link">Descargar</a>
+          <a href="/es/contact/" class="nav-link active">Contacto</a>
+        </div>
+        <div class="lang-switcher">
+          <a href="/contact/" class="lang-link">EN</a>
+          <a href="/zh/contact/" class="lang-link">中文</a>
+          <a href="/es/contact/" class="lang-link active">ES</a>
+          <a href="/ja/contact/" class="lang-link">日本語</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <section class="features">
+    <div class="container">
+      <h1 class="section-title">Contáctenos</h1>
+      <div class="contact-form">
+        <form id="contactForm">
+          <div class="form-group">
+            <label for="name">Nombre</label>
+            <input type="text" id="name" name="name" placeholder="Su Nombre" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Correo Electrónico</label>
+            <input type="email" id="email" name="email" placeholder="your@email.com" required>
+          </div>
+          <div class="form-group">
+            <label for="category">Categoría</label>
+            <select id="category" name="category" required>
+              <option value="">Seleccione Categoría</option>
+              <option value="bug">Reporte de Error</option>
+              <option value="suggestion">Sugerencia de Función</option>
+              <option value="support">Soporte Técnico</option>
+              <option value="feedback">Retroalimentación</option>
+              <option value="other">Otro</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="subject">Asunto</label>
+            <input type="text" id="subject" name="subject" placeholder="Asunto" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Mensaje</label>
+            <textarea id="message" name="message" placeholder="Su mensaje..." required></textarea>
+          </div>
+          <button type="submit" class="submit-btn">Enviar</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Juego</h3>
+          <a href="/es/">Inicio</a>
+          <a href="/es/#characters">Personajes</a>
+          <a href="/es/#features">Características</a>
+          <a href="/es/#download">Descargar</a>
+        </div>
+        <div class="footer-section">
+          <h3>Soporte</h3>
+          <a href="/es/help/">Ayuda</a>
+          <a href="/es/faq/">Preguntas Frecuentes</a>
+          <a href="/es/contact/">Contacto</a>
+        </div>
+        <div class="footer-section">
+          <h3>Legal</h3>
+          <a href="/es/privacy/">Privacidad</a>
+          <a href="/es/terms/">Términos</a>
+        </div>
+        <div class="footer-section">
+          <h3>Seguir</h3>
+          <a href="https://www.gog.com/en/game/helping_the_hotties" target="_blank">GOG</a>
+          <a href="https://twitter.com/HelpingHotties" target="_blank">Twitter</a>
+          <a href="https://discord.gg/helpinghotties" target="_blank">Discord</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 xRedGames. Todos los derechos reservados. Sitio web de fans.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('contactForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      alert('¡Gracias por contactarnos! Este es un formulario de demostración. Se requiere procesamiento del lado del servidor para la presentación real.');
+      this.reset();
+    });
+  </script>
+</body>
+</html>

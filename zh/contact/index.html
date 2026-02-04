@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="联系 Helping the Hotties。提出问题、建议或技术支持。">
+  <meta name="keywords" content="Helping the Hotties 联系, 支持表单, 反馈">
+  <meta property="og:title" content="联系我们 - Helping the Hotties">
+  <meta property="og:url" content="https://helpingthehotties.com/zh/contact/">
+  <meta property="og:site_name" content="Helping the Hotties">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta property="og:locale:alternate" content="ja_JP">
+  <meta name="robots" content="index, follow">
+  
+  <link rel="alternate" hreflang="en" href="https://helpingthehotties.com/contact/" />
+  <link rel="alternate" hreflang="zh" href="https://helpingthehotties.com/zh/contact/" />
+  <link rel="alternate" hreflang="es" href="https://helpingthehotties.com/es/contact/" />
+  <link rel="alternate" hreflang="ja" href="https://helpingthehotties.com/ja/contact/" />
+  <link rel="alternate" hreflang="x-default" href="https://helpingthehotties.com/contact/" />
+  <link rel="canonical" href="https://helpingthehotties.com/zh/contact/" />
+
+  <title>联系我们 - Helping the Hotties</title>
+  <link rel="stylesheet" href="../../styles.css">
+  <style>
+    .contact-form {
+      max-width: 600px;
+      margin: 0 auto;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 40px;
+    }
+    .form-group {
+      margin-bottom: 24px;
+    }
+    .form-group label {
+      display: block;
+      margin-bottom: 8px;
+      color: var(--text);
+      font-weight: 600;
+    }
+    .form-group input,
+    .form-group textarea,
+    .form-group select {
+      width: 100%;
+      padding: 12px;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      color: var(--text);
+      font-family: inherit;
+      font-size: 14px;
+    }
+    .form-group input:focus,
+    .form-group textarea:focus,
+    .form-group select:focus {
+      outline: none;
+      border-color: var(--primary);
+    }
+    .form-group textarea {
+      resize: vertical;
+      min-height: 150px;
+    }
+    .submit-btn {
+      width: 100%;
+      padding: 14px;
+      background: var(--primary);
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s;
+    }
+  </style>
+</head>
+<body>
+  <nav class="nav">
+    <div class="container">
+      <div class="nav-content">
+        <a href="/zh/" class="logo">
+          <span>🎮</span>
+          <span>Helping the Hotties</span>
+        </a>
+        <div class="nav-menu">
+          <a href="/zh/#features" class="nav-link">特色</a>
+          <a href="/zh/#characters" class="nav-link">角色</a>
+          <a href="/zh/#download" class="nav-link">下载</a>
+          <a href="/zh/contact/" class="nav-link active">联系</a>
+        </div>
+        <div class="lang-switcher">
+          <a href="/contact/" class="lang-link">EN</a>
+          <a href="/zh/contact/" class="lang-link active">中文</a>
+          <a href="/es/contact/" class="lang-link">ES</a>
+          <a href="/ja/contact/" class="lang-link">日本語</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <section class="features">
+    <div class="container">
+      <h1 class="section-title">联系我们</h1>
+      <div class="contact-form">
+        <form id="contactForm">
+          <div class="form-group">
+            <label for="name">姓名</label>
+            <input type="text" id="name" name="name" placeholder="您的姓名" required>
+          </div>
+          <div class="form-group">
+            <label for="email">邮箱</label>
+            <input type="email" id="email" name="email" placeholder="your@email.com" required>
+          </div>
+          <div class="form-group">
+            <label for="category">分类</label>
+            <select id="category" name="category" required>
+              <option value="">选择分类</option>
+              <option value="bug">错误报告</option>
+              <option value="suggestion">功能建议</option>
+              <option value="support">技术支持</option>
+              <option value="feedback">反馈</option>
+              <option value="other">其他</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="subject">主题</label>
+            <input type="text" id="subject" name="subject" placeholder="主题" required>
+          </div>
+          <div class="form-group">
+            <label for="message">消息</label>
+            <textarea id="message" name="message" placeholder="您的消息..." required></textarea>
+          </div>
+          <button type="submit" class="submit-btn">发送</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>游戏</h3>
+          <a href="/zh/">主页</a>
+          <a href="/zh/#characters">角色</a>
+          <a href="/zh/#features">特色</a>
+          <a href="/zh/#download">下载</a>
+        </div>
+        <div class="footer-section">
+          <h3>支持</h3>
+          <a href="/zh/help/">帮助</a>
+          <a href="/zh/faq/">常见问题</a>
+          <a href="/zh/contact/">联系</a>
+        </div>
+        <div class="footer-section">
+          <h3>法律</h3>
+          <a href="/zh/privacy/">隐私</a>
+          <a href="/zh/terms/">条款</a>
+        </div>
+        <div class="footer-section">
+          <h3>关注</h3>
+          <a href="https://www.gog.com/en/game/helping_the_hotties" target="_blank">GOG</a>
+          <a href="https://twitter.com/HelpingHotties" target="_blank">Twitter</a>
+          <a href="https://discord.gg/helpinghotties" target="_blank">Discord</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 xRedGames。保留所有权利。粉丝网站。</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('contactForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      alert('感谢您联系我们！这是一个演示表单。实际提交需要服务器端处理。');
+      this.reset();
+    });
+  </script>
+</body>
+</html>

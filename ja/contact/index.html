@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Helping the Hotties にお問い合わせください。質問や提案、技術サポートなど、お気軽にご連絡ください。">
+  <meta name="keywords" content="Helping the Hotties お問い合わせ, サポート, 問い合わせフォーム">
+  <meta property="og:title" content="お問い合わせ - Helping the Hotties">
+  <meta property="og:description" content="Helping the Hotties へのお問い合わせフォーム。ご質問やご提案をお待ちしております。">
+  <meta property="og:url" content="https://helpingthehotties.com/ja/contact/">
+  <meta property="og:site_name" content="Helping the Hotties">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="zh_CN">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta name="robots" content="index, follow">
+  
+  <link rel="alternate" hreflang="en" href="https://helpingthehotties.com/contact/" />
+  <link rel="alternate" hreflang="zh" href="https://helpingthehotties.com/zh/contact/" />
+  <link rel="alternate" hreflang="es" href="https://helpingthehotties.com/es/contact/" />
+  <link rel="alternate" hreflang="ja" href="https://helpingthehotties.com/ja/contact/" />
+  <link rel="alternate" hreflang="x-default" href="https://helpingthehotties.com/contact/" />
+  <link rel="canonical" href="https://helpingthehotties.com/ja/contact/" />
+
+  <title>お問い合わせ - Helping the Hotties</title>
+  <link rel="stylesheet" href="../../styles.css">
+  <style>
+    .contact-form {
+      max-width: 600px;
+      margin: 0 auto;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 40px;
+    }
+    .form-group {
+      margin-bottom: 24px;
+    }
+    .form-group label {
+      display: block;
+      margin-bottom: 8px;
+      color: var(--text);
+      font-weight: 600;
+    }
+    .form-group input,
+    .form-group textarea,
+    .form-group select {
+      width: 100%;
+      padding: 12px;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      color: var(--text);
+      font-family: inherit;
+      font-size: 14px;
+      transition: border-color 0.3s;
+    }
+    .form-group input:focus,
+    .form-group textarea:focus,
+    .form-group select:focus {
+      outline: none;
+      border-color: var(--primary);
+      background: rgba(255, 107, 157, 0.05);
+    }
+    .form-group textarea {
+      resize: vertical;
+      min-height: 150px;
+    }
+    .form-info {
+      background: rgba(255, 107, 157, 0.1);
+      border-left: 4px solid var(--primary);
+      padding: 16px;
+      border-radius: 8px;
+      margin-bottom: 24px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+    .submit-btn {
+      width: 100%;
+      padding: 14px;
+      background: var(--primary);
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s;
+      font-size: 16px;
+    }
+    .submit-btn:hover {
+      background: var(--primary-light);
+      transform: translateY(-2px);
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="container">
+      <div class="nav-content">
+        <a href="/ja/" class="logo">
+          <span>🎮</span>
+          <span>Helping the Hotties</span>
+        </a>
+        <div class="nav-menu">
+          <a href="/ja/#features" class="nav-link">特徴</a>
+          <a href="/ja/#characters" class="nav-link">キャラクター</a>
+          <a href="/ja/#download" class="nav-link">ダウンロード</a>
+          <a href="/ja/contact/" class="nav-link active">お問い合わせ</a>
+        </div>
+        <div class="lang-switcher">
+          <a href="/contact/" class="lang-link">EN</a>
+          <a href="/zh/contact/" class="lang-link">中文</a>
+          <a href="/es/contact/" class="lang-link">ES</a>
+          <a href="/ja/contact/" class="lang-link active">日本語</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <section class="features">
+    <div class="container">
+      <h1 class="section-title">お問い合わせ</h1>
+      
+      <div class="contact-form">
+        <div class="form-info">
+          ご質問やご提案などございましたら、以下のフォームからお気軽にお問い合わせください。できるだけ早くご返答いたします。
+        </div>
+
+        <form id="contactForm">
+          <div class="form-group">
+            <label for="name">お名前</label>
+            <input type="text" id="name" name="name" placeholder="山田太郎" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email">メールアドレス</label>
+            <input type="email" id="email" name="email" placeholder="example@mail.com" required>
+          </div>
+
+          <div class="form-group">
+            <label for="category">カテゴリ</label>
+            <select id="category" name="category" required>
+              <option value="">選択してください</option>
+              <option value="bug">バグ報告</option>
+              <option value="suggestion">機能提案</option>
+              <option value="support">技術サポート</option>
+              <option value="feedback">ご感想・ご意見</option>
+              <option value="media">メディア問い合わせ</option>
+              <option value="other">その他</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="subject">件名</label>
+            <input type="text" id="subject" name="subject" placeholder="お問い合わせの件名" required>
+          </div>
+
+          <div class="form-group">
+            <label for="message">メッセージ</label>
+            <textarea id="message" name="message" placeholder="詳細をお記入ください" required></textarea>
+          </div>
+
+          <button type="submit" class="submit-btn">送信</button>
+        </form>
+      </div>
+
+      <div style="max-width: 900px; margin: 60px auto 0; text-align: center;">
+        <h2 class="section-title">その他のお問い合わせ方法</h2>
+        
+        <div class="feature-grid">
+          <div class="feature-card">
+            <div class="feature-icon">💬</div>
+            <h3 class="feature-title">Discord</h3>
+            <p class="feature-desc">
+              リアルタイムのサポートやコミュニティとの交流をお望みでしたら、<a href="https://discord.gg/helpinghotties" target="_blank" style="color: var(--primary); text-decoration: underline;">Discordサーバー</a>にご参加ください。
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">🐦</div>
+            <h3 class="feature-title">Twitter</h3>
+            <p class="feature-desc">
+              最新情報や緊急の更新情報は<a href="https://twitter.com/HelpingHotties" target="_blank" style="color: var(--primary); text-decoration: underline;">公式Twitter</a>でお知らせしております。フォローしていただくとタイムリーな情報が得られます。
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">📖</div>
+            <h3 class="feature-title">FAQ ページ</h3>
+            <p class="feature-desc">
+              よくある質問については<a href="/ja/faq/" style="color: var(--primary); text-decoration: underline;">FAQページ</a>をご参照ください。多くのご質問の回答がございます。
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>ゲーム</h3>
+          <a href="/ja/">ホーム</a>
+          <a href="/ja/#characters">キャラクター</a>
+          <a href="/ja/#features">特徴</a>
+          <a href="/ja/#download">ダウンロード</a>
+        </div>
+        <div class="footer-section">
+          <h3>サポート</h3>
+          <a href="/ja/help/">ヘルプセンター</a>
+          <a href="/ja/faq/">よくある質問</a>
+          <a href="/ja/contact/">お問い合わせ</a>
+        </div>
+        <div class="footer-section">
+          <h3>法律</h3>
+          <a href="/ja/privacy/">プライバシーポリシー</a>
+          <a href="/ja/terms/">利用規約</a>
+        </div>
+        <div class="footer-section">
+          <h3>フォローする</h3>
+          <a href="https://www.gog.com/en/game/helping_the_hotties" target="_blank">GOG ページ</a>
+          <a href="https://twitter.com/HelpingHotties" target="_blank">Twitter</a>
+          <a href="https://discord.gg/helpinghotties" target="_blank">Discord</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 xRedGames. 全著作権所有。これはファンメイドのウェブサイトです。</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('contactForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      alert('お問い合わせありがとうございます。\n\nこのフォームは現在デモです。実際の送信機能を使用するには、サーバー側の処理が必要です。\n\nご質問やご提案は、Discord または Twitter でもお受けしております。');
+      this.reset();
+    });
+  </script>
+</body>
+</html>

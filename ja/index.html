@@ -3,18 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Helping the Hotties 完全版を無料でダウンロード。英語音声付きビジュアルノベルRPGゲーム。Windows、Mac、Linux、Android対応。DRM-Free。">
-  <meta name="keywords" content="Helping the Hotties ダウンロード, ビジュアルノベルゲーム, 無料ゲーム, 大人向けゲーム, RPGゲーム">
-  <meta property="og:title" content="Helping the Hotties - 無料ダウンロード | 公式ビジュアルノベルゲーム">
-  <meta property="og:description" content="Helping the Hotties 完全版を入手。複数のエンディングと分岐ストーリーを持つ受賞作品のビジュアルノベルゲーム。">
+  <meta name="description" content="Helping the Hottiesのファンサイト。分岐ストーリーと選択で進むビジュアルノベルRPG。Windows、Mac、Linux、Android対応、DRMフリー。">
+  <meta name="keywords" content="Helping the Hotties, ビジュアルノベル, 分岐ストーリー, マルチエンディング, 無料ダウンロード, RPG, インディーゲーム">
+  <meta property="og:title" content="Helping the Hotties ファンサイト | 無料ダウンロードとゲーム紹介">
+  <meta property="og:description" content="選択が物語を変えるビジュアルノベルRPG。キャラクターの成長と関係性が鍵になる、没入型のキャンプストーリー。">
   <meta property="og:type" content="website">
   <meta property="og:image" content="https://helpingthehotties.com/images/screenshot1.jpg">
   <meta property="og:image:width" content="1920">
   <meta property="og:image:height" content="1080">
+  <meta property="og:url" content="https://helpingthehotties.com/ja/">
+  <meta property="og:site_name" content="Helping the Hotties">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="zh_CN">
+  <meta property="og:locale:alternate" content="es_ES">
   <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Helping the Hotties ファンサイト | 無料ダウンロードとゲーム紹介">
+  <meta name="twitter:description" content="選択が物語を変えるビジュアルノベルRPG。キャラクターの成長と関係性が鍵になる、没入型のキャンプストーリー。">
   <meta name="twitter:image" content="https://helpingthehotties.com/images/screenshot1.jpg">
   <meta name="author" content="xRedGames">
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="theme-color" content="#ff6b9d">
   
   <!-- Favicon -->
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎮</text></svg>">
@@ -27,7 +36,7 @@
   <link rel="alternate" hreflang="x-default" href="https://helpingthehotties.com/" />
   <link rel="canonical" href="https://helpingthehotties.com/ja/" />
   
-  <title>Helping the Hotties - 無料ダウンロード | 公式ビジュアルノベルゲーム</title>
+  <title>Helping the Hotties ファンサイト | 無料ダウンロードとゲーム紹介</title>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org/",
@@ -81,11 +90,12 @@
   <section class="hero">
     <div class="container">
       <h1>Helping the Hotties</h1>
-      <p class="tagline">選択、冒険、キャラクター育成を含む没入型ビジュアルノベル</p>
+      <p class="tagline">選択が物語を変える、濃密なキャンプ型ビジュアルノベルRPG</p>
       
       <div class="badges">
         <span class="badge">⭐ 4.0/5</span>
-        <span class="badge">ビジュアルノベル · RPG · シミュレーション</span>
+        <span class="badge">ビジュアルノベル · RPG · 物語重視</span>
+        <span class="badge">分岐ストーリー · マルチエンディング</span>
         <span class="badge">✅ DRM-FREE</span>
         <span class="badge">Windows · Mac · Linux · Android</span>
       </div>
@@ -93,6 +103,12 @@
       <div class="hero-buttons">
         <button class="btn btn-primary" onclick="scrollToDownload()">無料ダウンロード</button>
         <button class="btn" onclick="scrollToVideo()">トレーラーを見る</button>
+      </div>
+
+      <div class="hero-buttons" style="margin-top: -40px;">
+        <button class="btn" onclick="document.getElementById('story').scrollIntoView({ behavior: 'smooth' })">ストーリー概要</button>
+        <button class="btn" onclick="document.getElementById('characters').scrollIntoView({ behavior: 'smooth' })">キャラクター</button>
+        <button class="btn" onclick="document.getElementById('reviews').scrollIntoView({ behavior: 'smooth' })">レビュー</button>
       </div>
     </div>
   </section>
@@ -115,13 +131,52 @@
   </section>
 
   <!-- Story Section -->
-  <section class="features" style="margin-top: 0;">
+  <section class="features" id="story" style="margin-top: 0;">
     <div class="container">
       <h2 class="section-title">ゲームストーリー</h2>
       <div class="feature-card" style="max-width: 900px; margin: 0 auto;">
         <p class="feature-desc" style="font-size: 16px; line-height: 1.8;">
-          あなたは心理学の大学生で、セクシーなガールフレンドと夏を過ごす準備ができていました。しかし、予期しない電話を受けました。翌朝、行動リハビリセンターで働くためのバスに乗っていました。あなたの目標は、4人の美しい参加者の自己改善と社会への再統合の旅をガイドしながら、できるだけプロフェッショナルに行動し、遠距離恋愛を維持することです。それぞれの女の子には異なる個性、気まぐれ、欲望があり、キャンプコンサルタント長のEveの監視下で彼らを満足させることはあなたの責任です。
+          心理学を学ぶあなたは、穏やかな夏を予定していました。ところが突如、行動リハビリセンターのサマーキャンプに派遣されます。与えられた役割は、4人の参加者の成長を支援し、信頼関係を築くこと。厳格な監督役のEveの目の下で、プロとしての一線を守りつつ、それぞれの葛藤に寄り添う必要があります。選択が未来を変え、あなたの判断が物語の結末を決定します。
         </p>
+        <div class="badges" style="margin-top: 20px; justify-content: center;">
+          <span class="badge">分岐ルート 10+</span>
+          <span class="badge">マルチエンディング</span>
+          <span class="badge">関係性パラメータ</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Character Spotlight -->
+  <section class="features" id="characters">
+    <div class="container">
+      <h2 class="section-title">キャラクター紹介</h2>
+      <div class="feature-grid">
+        <div class="feature-card">
+          <div class="feature-icon">🌿</div>
+          <h3 class="feature-title">Mira</h3>
+          <p class="feature-desc">控えめで観察力が鋭い。静かな時間に本音がこぼれるタイプ。信頼を積み重ねると特別イベントが解放。</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🔥</div>
+          <h3 class="feature-title">Roxy</h3>
+          <p class="feature-desc">情熱的で自分の価値観を貫く強さを持つ。衝突と和解のドラマが魅力。</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🌙</div>
+          <h3 class="feature-title">Luna</h3>
+          <p class="feature-desc">夜が好きなミステリアス系。慎重に距離を詰めると、過去の秘密が語られる。</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🌊</div>
+          <h3 class="feature-title">Kai</h3>
+          <p class="feature-desc">明るく社交的なムードメーカー。選択次第でチーム全体の雰囲気が変わる。</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🧭</div>
+          <h3 class="feature-title">Eve（監督役）</h3>
+          <p class="feature-desc">厳格だが公平。ルールを守る姿勢が、信頼の鍵となる。</p>
+        </div>
       </div>
     </div>
   </section>
@@ -141,6 +196,11 @@
           <img src="../images/screenshot3.jpg" alt="Helping the Hotties キャラクター" loading="lazy">
         </div>
       </div>
+      <div class="badges" style="margin-top: 24px;">
+        <span class="badge">会話シーン</span>
+        <span class="badge">キャンプイベント</span>
+        <span class="badge">分岐エンディング</span>
+      </div>
     </div>
   </section>
 
@@ -151,33 +211,91 @@
       <div class="feature-grid">
         <div class="feature-card">
           <div class="feature-icon">📖</div>
-          <h3 class="feature-title">豊かなストーリーテリング</h3>
-          <p class="feature-desc">選択に基づいた複数の分岐パスとエンディングを持つ魅力的な物語を体験してください。複雑な関係と道徳的なジレンマに対処しながら、4人のユニークなキャラクターを助けます。</p>
+          <h3 class="feature-title">選択が物語を形作る</h3>
+          <p class="feature-desc">重要な場面での選択が、関係性や結末に影響します。短期的な結果だけでなく、長期的な信頼にも注目してください。</p>
         </div>
         <div class="feature-card">
           <div class="feature-icon">👥</div>
-          <h3 class="feature-title">多様なキャラクター</h3>
-          <p class="feature-desc">それぞれ独自の個性とストーリーアークを持つ4人のユニークなキャラクターと出会い、交流します。意味のある相互作用を通じて関係を構築します。</p>
+          <h3 class="feature-title">個性豊かなキャラクター</h3>
+          <p class="feature-desc">背景も価値観も異なる4人と向き合い、理解を深めます。会話と行動が、彼女たちの変化を引き出します。</p>
         </div>
         <div class="feature-card">
           <div class="feature-icon">🎯</div>
-          <h3 class="feature-title">選択ベースのゲームプレイ</h3>
-          <p class="feature-desc">あなたの決定が重要です！意味のある選択を通じてストーリーと関係を形作ります。異なる選択によって異なるエンディングが得られます。</p>
+          <h3 class="feature-title">分岐するキャンプ生活</h3>
+          <p class="feature-desc">日々の行動や会話がイベントを解放し、異なるルートへ。複数のエンディングを目指しましょう。</p>
         </div>
         <div class="feature-card">
           <div class="feature-icon">🎨</div>
-          <h3 class="feature-title">美しいアートワーク</h3>
-          <p class="feature-desc">冒険を通じて高品質のキャラクターデザインと詳細な背景をお楽しみください。美しいビジュアルとアニメーション。</p>
+          <h3 class="feature-title">魅力的なビジュアル</h3>
+          <p class="feature-desc">繊細なキャラクターデザインと雰囲気ある背景で、ストーリーへの没入感を高めます。</p>
         </div>
         <div class="feature-card">
           <div class="feature-icon">🔊</div>
-          <h3 class="feature-title">多言語サポート</h3>
-          <p class="feature-desc">完全なテキストとオーディオのローカライゼーションで、お好みの言語でプレイできます。没入型の音楽と効果音。</p>
+          <h3 class="feature-title">サウンドと雰囲気</h3>
+          <p class="feature-desc">場面を彩るBGMと効果音が物語の緊張感を演出。静かな夜のキャンプも、重要な選択も鮮明に。</p>
         </div>
         <div class="feature-card">
           <div class="feature-icon">⏱️</div>
-          <h3 class="feature-title">豊富なゲームプレイ</h3>
-          <p class="feature-desc">メインストーリー11時間、サイドコンテンツを含めて19.5時間、完全クリアで57時間。ミッション、実績、複数のエンディング。</p>
+          <h3 class="feature-title">遊び応えのあるボリューム</h3>
+          <p class="feature-desc">メインストーリーからサイドエピソードまで、じっくり楽しめる構成。収集要素や実績も充実しています。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works -->
+  <section class="features" id="how-it-works">
+    <div class="container">
+      <h2 class="section-title">プレイの流れ</h2>
+      <div class="feature-grid">
+        <div class="feature-card">
+          <div class="feature-icon">🚌</div>
+          <h3 class="feature-title">配属と出会い</h3>
+          <p class="feature-desc">キャンプに到着し、4人の参加者と監督役Eveに挨拶。ここから物語が動き出します。</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🗣️</div>
+          <h3 class="feature-title">対話と選択</h3>
+          <p class="feature-desc">会話や行動を選び、関係性を築くのが核心。信頼が深まるほど新しい展開が開放されます。</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🧭</div>
+          <h3 class="feature-title">分岐ルート</h3>
+          <p class="feature-desc">選択の積み重ねでルートが分岐。誰を優先するかで物語の方向性が変化します。</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🏁</div>
+          <h3 class="feature-title">結末へ</h3>
+          <p class="feature-desc">あなたの判断が結末を決定。複数のエンディングから、お気に入りの未来を見つけましょう。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Game Systems -->
+  <section class="features" id="systems">
+    <div class="container">
+      <h2 class="section-title">ゲームシステム</h2>
+      <div class="feature-grid">
+        <div class="feature-card">
+          <div class="feature-icon">📊</div>
+          <h3 class="feature-title">信頼度パラメータ</h3>
+          <p class="feature-desc">会話や行動で信頼度が変化。一定値を超えると専用イベントが発生します。</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🗓️</div>
+          <h3 class="feature-title">日程管理</h3>
+          <p class="feature-desc">限られた日数で誰と過ごすかを選択。時間配分がルートに影響します。</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🧩</div>
+          <h3 class="feature-title">イベント解放</h3>
+          <p class="feature-desc">条件達成で特別イベントやサイドエピソードが解放されます。</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🏆</div>
+          <h3 class="feature-title">実績と収集</h3>
+          <p class="feature-desc">周回プレイで実績やコレクション要素をコンプリート。</p>
         </div>
       </div>
     </div>
@@ -192,8 +310,112 @@
           <div class="feature-icon"></div>
           <div class="download-size">1.2 GB</div>
           <h3 class="download-title">Android APK</h3>
-          <p class="download-desc">Androidデバイスでプレイ</p>
+          <p class="download-desc">Androidデバイスでプレイ。ダウンロード後は提供元の確認を推奨。</p>
           <button class="btn btn-primary" onclick="startDownload('android')">無料ダウンロード</button>
+        </div>
+        <div class="download-card">
+          <div class="feature-icon">💻</div>
+          <div class="download-size">2.8 GB</div>
+          <h3 class="download-title">Windows / macOS / Linux</h3>
+          <p class="download-desc">デスクトップ版（DRMフリー）。高速なロードと快適な操作。</p>
+          <button class="btn" onclick="startDownload('full')">配布準備中</button>
+        </div>
+        <div class="download-card">
+          <div class="feature-icon">🎒</div>
+          <div class="download-size">1.6 GB</div>
+          <h3 class="download-title">ポータブル版</h3>
+          <p class="download-desc">USBで持ち運べる軽量版。環境を選ばず起動。</p>
+          <button class="btn" onclick="startDownload('portable')">配布準備中</button>
+        </div>
+      </div>
+      <p class="feature-desc" style="text-align: center; margin-top: 16px;">
+        ダウンロードは無料。公式配布の準備が整い次第、リンクを更新します。
+      </p>
+    </div>
+  </section>
+
+  <!-- Reviews -->
+  <section class="features" id="reviews">
+    <div class="container">
+      <h2 class="section-title">プレイヤーレビュー</h2>
+      <div class="feature-grid">
+        <div class="feature-card">
+          <div class="feature-icon">⭐</div>
+          <h3 class="feature-title">感情の揺れが丁寧</h3>
+          <p class="feature-desc">選択の重みが伝わり、決断するたびに緊張感がある。キャラクターの成長描写が良い。</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">⭐</div>
+          <h3 class="feature-title">周回が楽しい</h3>
+          <p class="feature-desc">エンディングが複数あり、別ルートで新しい発見がある。実績集めも熱い。</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">⭐</div>
+          <h3 class="feature-title">雰囲気作りが秀逸</h3>
+          <p class="feature-desc">BGMと背景の相性が抜群で、キャンプの空気感に浸れる。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Roadmap -->
+  <section class="features" id="roadmap">
+    <div class="container">
+      <h2 class="section-title">開発ロードマップ</h2>
+      <div class="feature-grid">
+        <div class="feature-card">
+          <div class="feature-icon">✅</div>
+          <h3 class="feature-title">Q1: コアストーリー完成</h3>
+          <p class="feature-desc">主要ルートとエンディングを完成。最適化とバグ修正を継続。</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🛠️</div>
+          <h3 class="feature-title">Q2: 追加エピソード</h3>
+          <p class="feature-desc">サイドエピソードと新規イベントを追加予定。</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🌍</div>
+          <h3 class="feature-title">Q3: ローカライズ強化</h3>
+          <p class="feature-desc">翻訳品質の向上とUI調整で、より多言語に対応。</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🎁</div>
+          <h3 class="feature-title">Q4: 追加コンテンツ</h3>
+          <p class="feature-desc">コレクション要素と実績の拡張、新規イラストの追加。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="features" id="faq">
+    <div class="container">
+      <h2 class="section-title">よくある質問</h2>
+      <div class="feature-grid">
+        <div class="feature-card">
+          <div class="feature-icon">💬</div>
+          <h3 class="feature-title">日本語でプレイできますか？</h3>
+          <p class="feature-desc">はい。日本語を含む複数の言語に対応しています。言語切り替えで快適に遊べます。</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🧩</div>
+          <h3 class="feature-title">ストーリーは分岐しますか？</h3>
+          <p class="feature-desc">重要な選択が複数のルートとエンディングに影響します。周回プレイで新しい展開を発見できます。</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🔒</div>
+          <h3 class="feature-title">DRMはありますか？</h3>
+          <p class="feature-desc">DRMフリーのため、インストールが簡単でオフラインでもプレイ可能です。</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">💾</div>
+          <h3 class="feature-title">セーブ機能は？</h3>
+          <p class="feature-desc">複数スロットでセーブ可能。分岐直前に保存してルートを試せます。</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🛡️</div>
+          <h3 class="feature-title">安全にダウンロードできますか？</h3>
+          <p class="feature-desc">公式リンクのみ掲載。リンク更新時は整合性チェックを行います。</p>
         </div>
       </div>
     </div>

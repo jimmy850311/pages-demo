@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <!-- English Version -->
+  <!-- Home / 首页 / Página principal -->
   <url>
     <loc>https://helpingthehotties.com/</loc>
-    <lastmod>2026-01-28</lastmod>
+    <lastmod>2026-02-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://helpingthehotties.com/" />
@@ -13,11 +13,9 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://helpingthehotties.com/ja/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://helpingthehotties.com/" />
   </url>
-
-  <!-- Chinese Version -->
   <url>
     <loc>https://helpingthehotties.com/zh/</loc>
-    <lastmod>2026-01-28</lastmod>
+    <lastmod>2026-02-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://helpingthehotties.com/" />
@@ -26,11 +24,20 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://helpingthehotties.com/ja/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://helpingthehotties.com/" />
   </url>
-
-  <!-- Spanish Version -->
   <url>
     <loc>https://helpingthehotties.com/es/</loc>
-    <lastmod>2026-01-28</lastmod>
+    <lastmod>2026-02-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://helpingthehotties.com/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://helpingthehotties.com/zh/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://helpingthehotties.com/es/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://helpingthehotties.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://helpingthehotties.com/" />
+  </url>
+  <url>
+    <loc>https://helpingthehotties.com/ja/</loc>
+    <lastmod>2026-02-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://helpingthehotties.com/" />
@@ -40,16 +47,233 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://helpingthehotties.com/" />
   </url>
 
-  <!-- Japanese Version -->
+  <!-- Contact -->
   <url>
-    <loc>https://helpingthehotties.com/ja/</loc>
-    <lastmod>2026-01-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://helpingthehotties.com/" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://helpingthehotties.com/zh/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://helpingthehotties.com/es/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://helpingthehotties.com/ja/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://helpingthehotties.com/" />
+    <loc>https://helpingthehotties.com/contact/</loc>
+    <lastmod>2026-02-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://helpingthehotties.com/contact/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://helpingthehotties.com/zh/contact/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://helpingthehotties.com/es/contact/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://helpingthehotties.com/ja/contact/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://helpingthehotties.com/contact/" />
+  </url>
+  <url>
+    <loc>https://helpingthehotties.com/zh/contact/</loc>
+    <lastmod>2026-02-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://helpingthehotties.com/contact/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://helpingthehotties.com/zh/contact/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://helpingthehotties.com/es/contact/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://helpingthehotties.com/ja/contact/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://helpingthehotties.com/contact/" />
+  </url>
+  <url>
+    <loc>https://helpingthehotties.com/es/contact/</loc>
+    <lastmod>2026-02-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://helpingthehotties.com/contact/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://helpingthehotties.com/zh/contact/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://helpingthehotties.com/es/contact/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://helpingthehotties.com/ja/contact/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://helpingthehotties.com/contact/" />
+  </url>
+  <url>
+    <loc>https://helpingthehotties.com/ja/contact/</loc>
+    <lastmod>2026-02-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://helpingthehotties.com/contact/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://helpingthehotties.com/zh/contact/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://helpingthehotties.com/es/contact/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://helpingthehotties.com/ja/contact/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://helpingthehotties.com/contact/" />
+  </url>
+
+  <!-- FAQ -->
+  <url>
+    <loc>https://helpingthehotties.com/faq/</loc>
+    <lastmod>2026-02-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://helpingthehotties.com/faq/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://helpingthehotties.com/zh/faq/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://helpingthehotties.com/es/faq/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://helpingthehotties.com/ja/faq/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://helpingthehotties.com/faq/" />
+  </url>
+  <url>
+    <loc>https://helpingthehotties.com/zh/faq/</loc>
+    <lastmod>2026-02-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://helpingthehotties.com/faq/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://helpingthehotties.com/zh/faq/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://helpingthehotties.com/es/faq/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://helpingthehotties.com/ja/faq/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://helpingthehotties.com/faq/" />
+  </url>
+  <url>
+    <loc>https://helpingthehotties.com/es/faq/</loc>
+    <lastmod>2026-02-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://helpingthehotties.com/faq/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://helpingthehotties.com/zh/faq/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://helpingthehotties.com/es/faq/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://helpingthehotties.com/ja/faq/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://helpingthehotties.com/faq/" />
+  </url>
+  <url>
+    <loc>https://helpingthehotties.com/ja/faq/</loc>
+    <lastmod>2026-02-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://helpingthehotties.com/faq/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://helpingthehotties.com/zh/faq/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://helpingthehotties.com/es/faq/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://helpingthehotties.com/ja/faq/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://helpingthehotties.com/faq/" />
+  </url>
+
+  <!-- Help -->
+  <url>
+    <loc>https://helpingthehotties.com/help/</loc>
+    <lastmod>2026-02-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://helpingthehotties.com/help/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://helpingthehotties.com/zh/help/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://helpingthehotties.com/es/help/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://helpingthehotties.com/ja/help/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://helpingthehotties.com/help/" />
+  </url>
+  <url>
+    <loc>https://helpingthehotties.com/zh/help/</loc>
+    <lastmod>2026-02-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://helpingthehotties.com/help/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://helpingthehotties.com/zh/help/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://helpingthehotties.com/es/help/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://helpingthehotties.com/ja/help/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://helpingthehotties.com/help/" />
+  </url>
+  <url>
+    <loc>https://helpingthehotties.com/es/help/</loc>
+    <lastmod>2026-02-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://helpingthehotties.com/help/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://helpingthehotties.com/zh/help/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://helpingthehotties.com/es/help/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://helpingthehotties.com/ja/help/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://helpingthehotties.com/help/" />
+  </url>
+  <url>
+    <loc>https://helpingthehotties.com/ja/help/</loc>
+    <lastmod>2026-02-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://helpingthehotties.com/help/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://helpingthehotties.com/zh/help/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://helpingthehotties.com/es/help/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://helpingthehotties.com/ja/help/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://helpingthehotties.com/help/" />
+  </url>
+
+  <!-- Privacy -->
+  <url>
+    <loc>https://helpingthehotties.com/privacy/</loc>
+    <lastmod>2026-02-04</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://helpingthehotties.com/privacy/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://helpingthehotties.com/zh/privacy/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://helpingthehotties.com/es/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://helpingthehotties.com/ja/privacy/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://helpingthehotties.com/privacy/" />
+  </url>
+  <url>
+    <loc>https://helpingthehotties.com/zh/privacy/</loc>
+    <lastmod>2026-02-04</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://helpingthehotties.com/privacy/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://helpingthehotties.com/zh/privacy/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://helpingthehotties.com/es/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://helpingthehotties.com/ja/privacy/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://helpingthehotties.com/privacy/" />
+  </url>
+  <url>
+    <loc>https://helpingthehotties.com/es/privacy/</loc>
+    <lastmod>2026-02-04</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://helpingthehotties.com/privacy/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://helpingthehotties.com/zh/privacy/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://helpingthehotties.com/es/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://helpingthehotties.com/ja/privacy/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://helpingthehotties.com/privacy/" />
+  </url>
+  <url>
+    <loc>https://helpingthehotties.com/ja/privacy/</loc>
+    <lastmod>2026-02-04</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://helpingthehotties.com/privacy/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://helpingthehotties.com/zh/privacy/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://helpingthehotties.com/es/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://helpingthehotties.com/ja/privacy/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://helpingthehotties.com/privacy/" />
+  </url>
+
+  <!-- Terms -->
+  <url>
+    <loc>https://helpingthehotties.com/terms/</loc>
+    <lastmod>2026-02-04</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://helpingthehotties.com/terms/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://helpingthehotties.com/zh/terms/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://helpingthehotties.com/es/terms/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://helpingthehotties.com/ja/terms/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://helpingthehotties.com/terms/" />
+  </url>
+  <url>
+    <loc>https://helpingthehotties.com/zh/terms/</loc>
+    <lastmod>2026-02-04</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://helpingthehotties.com/terms/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://helpingthehotties.com/zh/terms/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://helpingthehotties.com/es/terms/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://helpingthehotties.com/ja/terms/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://helpingthehotties.com/terms/" />
+  </url>
+  <url>
+    <loc>https://helpingthehotties.com/es/terms/</loc>
+    <lastmod>2026-02-04</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://helpingthehotties.com/terms/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://helpingthehotties.com/zh/terms/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://helpingthehotties.com/es/terms/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://helpingthehotties.com/ja/terms/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://helpingthehotties.com/terms/" />
+  </url>
+  <url>
+    <loc>https://helpingthehotties.com/ja/terms/</loc>
+    <lastmod>2026-02-04</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://helpingthehotties.com/terms/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://helpingthehotties.com/zh/terms/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://helpingthehotties.com/es/terms/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://helpingthehotties.com/ja/terms/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://helpingthehotties.com/terms/" />
   </url>
 </urlset>

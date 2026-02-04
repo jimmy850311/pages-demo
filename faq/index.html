@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Helping the Hotties FAQ. Find answers to common questions about downloads, system requirements, and gameplay.">
+  <meta name="keywords" content="Helping the Hotties FAQ, frequently asked questions, download, installation, troubleshooting">
+  <meta property="og:title" content="FAQ - Helping the Hotties">
+  <meta property="og:description" content="Frequently asked questions about Helping the Hotties game.">
+  <meta property="og:url" content="https://helpingthehotties.com/faq/">
+  <meta property="og:site_name" content="Helping the Hotties">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:locale:alternate" content="zh_CN">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta property="og:locale:alternate" content="ja_JP">
+  <meta name="robots" content="index, follow">
+  
+  <link rel="alternate" hreflang="en" href="https://helpingthehotties.com/faq/" />
+  <link rel="alternate" hreflang="zh" href="https://helpingthehotties.com/zh/faq/" />
+  <link rel="alternate" hreflang="es" href="https://helpingthehotties.com/es/faq/" />
+  <link rel="alternate" hreflang="ja" href="https://helpingthehotties.com/ja/faq/" />
+  <link rel="alternate" hreflang="x-default" href="https://helpingthehotties.com/faq/" />
+  <link rel="canonical" href="https://helpingthehotties.com/faq/" />
+
+  <title>FAQ - Helping the Hotties</title>
+  <link rel="stylesheet" href="../../styles.css">
+  <style>
+    .faq-container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 40px 0;
+    }
+    .faq-item {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      margin-bottom: 16px;
+      overflow: hidden;
+    }
+    .faq-question {
+      padding: 20px;
+      background: var(--card);
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-weight: 600;
+      color: var(--text);
+      transition: background 0.3s;
+    }
+    .faq-question:hover {
+      background: rgba(255, 107, 157, 0.1);
+    }
+    .faq-question.active {
+      color: var(--primary);
+    }
+    .faq-toggle {
+      font-size: 20px;
+      transition: transform 0.3s;
+    }
+    .faq-item.active .faq-toggle {
+      transform: rotate(180deg);
+    }
+    .faq-answer {
+      padding: 20px;
+      color: var(--muted);
+      border-top: 1px solid var(--border);
+      display: none;
+      line-height: 1.8;
+    }
+    .faq-item.active .faq-answer {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="container">
+      <div class="nav-content">
+        <a href="/" class="logo">
+          <span>🎮</span>
+          <span>Helping the Hotties</span>
+        </a>
+        <div class="nav-menu">
+          <a href="/#features" class="nav-link">Features</a>
+          <a href="/#characters" class="nav-link">Characters</a>
+          <a href="/#download" class="nav-link">Download</a>
+          <a href="/faq/" class="nav-link active">FAQ</a>
+        </div>
+        <div class="lang-switcher">
+          <a href="/faq/" class="lang-link active">EN</a>
+          <a href="/zh/faq/" class="lang-link">中文</a>
+          <a href="/es/faq/" class="lang-link">ES</a>
+          <a href="/ja/faq/" class="lang-link">日本語</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <section class="features">
+    <div class="container">
+      <h1 class="section-title">Frequently Asked Questions</h1>
+      
+      <div class="faq-container">
+        <div class="faq-item active">
+          <div class="faq-question">
+            <span>What is Helping the Hotties?</span>
+            <span class="faq-toggle">▼</span>
+          </div>
+          <div class="faq-answer">
+            Helping the Hotties is a choice-driven visual novel RPG developed by indie developer xRedGames. Build relationships with 4 unique characters at a summer camp while making meaningful choices that affect the story's outcome. Experience multiple endings and branching narratives.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>What platforms are supported?</span>
+            <span class="faq-toggle">▼</span>
+          </div>
+          <div class="faq-answer">
+            Helping the Hotties is available on Windows, macOS, Linux, and Android. Desktop versions, portable editions, and mobile APK formats are available. Check the <a href="/#download" style="color: var(--primary); text-decoration: underline;">Download</a> page for details.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>Is the game DRM-free?</span>
+            <span class="faq-toggle">▼</span>
+          </div>
+          <div class="faq-answer">
+            Yes. Helping the Hotties is completely DRM-free. You can play offline and on multiple devices without any restrictions.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>What are the system requirements?</span>
+            <span class="faq-toggle">▼</span>
+          </div>
+          <div class="faq-answer">
+            <strong>Minimum Requirements:</strong><br>
+            - OS: Windows 10 / macOS 10.10+<br>
+            - CPU: Dual-core 2.0 GHz<br>
+            - RAM: 8 GB<br>
+            - Storage: 5 GB available space<br><br>
+            <strong>Recommended:</strong><br>
+            - OS: Windows 11 / macOS 10.12+<br>
+            - CPU: Quad-core 3.0 GHz+<br>
+            - RAM: 16 GB<br>
+            - Storage: 8 GB available (SSD recommended)
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>How long is the game?</span>
+            <span class="faq-toggle">▼</span>
+          </div>
+          <div class="faq-answer">
+            Main story: ~11 hours. With side content: ~19.5 hours. For 100% completion with multiple endings: ~57 hours.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>Can I save my progress?</span>
+            <span class="faq-toggle">▼</span>
+          </div>
+          <div class="faq-answer">
+            Yes. The game has multiple save slots. You can save before important choices and try different paths.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>What languages are supported?</span>
+            <span class="faq-toggle">▼</span>
+          </div>
+          <div class="faq-answer">
+            Helping the Hotties supports multiple languages:<br>
+            - English<br>
+            - Japanese<br>
+            - Simplified Chinese<br>
+            - Spanish<br><br>
+            You can switch languages in the game settings.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>How many characters are in the game?</span>
+            <span class="faq-toggle">▼</span>
+          </div>
+          <div class="faq-answer">
+            There are 4 main characters (Mira, Roxy, Luna, and Kai) plus Eve, the camp director. Each character has their own story arc and relationship mechanics.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>Are there multiple endings?</span>
+            <span class="faq-toggle">▼</span>
+          </div>
+          <div class="faq-answer">
+            Yes. Your choices determine different story branches and multiple endings. Replay the game to experience all possible outcomes.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>Is the game free?</span>
+            <span class="faq-toggle">▼</span>
+          </div>
+          <div class="faq-answer">
+            Yes. Helping the Hotties is completely free to download and play. There are no hidden costs or premium features.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>How do I install the game?</span>
+            <span class="faq-toggle">▼</span>
+          </div>
+          <div class="faq-answer">
+            1. Go to the <a href="/#download" style="color: var(--primary); text-decoration: underline;">Download</a> page<br>
+            2. Select your platform<br>
+            3. Download and extract the file<br>
+            4. Run the executable to start playing<br><br>
+            Since it's DRM-free, installation is minimal.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>Is technical support available?</span>
+            <span class="faq-toggle">▼</span>
+          </div>
+          <div class="faq-answer">
+            Yes. Check the <a href="/help/" style="color: var(--primary); text-decoration: underline;">Help Center</a> or contact us via the <a href="/contact/" style="color: var(--primary); text-decoration: underline;">Contact Form</a>. Our team will assist you.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>Still have questions?</span>
+            <span class="faq-toggle">▼</span>
+          </div>
+          <div class="faq-answer">
+            If you don't find your answer here, please use our <a href="/contact/" style="color: var(--primary); text-decoration: underline;">Contact Form</a> to reach out. We'll be happy to help!
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Game</h3>
+          <a href="/">Home</a>
+          <a href="/#characters">Characters</a>
+          <a href="/#features">Features</a>
+          <a href="/#download">Download</a>
+        </div>
+        <div class="footer-section">
+          <h3>Support</h3>
+          <a href="/help/">Help Center</a>
+          <a href="/faq/">FAQ</a>
+          <a href="/contact/">Contact</a>
+        </div>
+        <div class="footer-section">
+          <h3>Legal</h3>
+          <a href="/privacy/">Privacy Policy</a>
+          <a href="/terms/">Terms of Service</a>
+        </div>
+        <div class="footer-section">
+          <h3>Follow</h3>
+          <a href="https://www.gog.com/en/game/helping_the_hotties" target="_blank">GOG Page</a>
+          <a href="https://twitter.com/HelpingHotties" target="_blank">Twitter</a>
+          <a href="https://discord.gg/helpinghotties" target="_blank">Discord</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 xRedGames. All rights reserved. This is a fan-made website.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.querySelectorAll('.faq-question').forEach(question => {
+      question.addEventListener('click', function() {
+        const faqItem = this.parentElement;
+        const isActive = faqItem.classList.contains('active');
+        document.querySelectorAll('.faq-item').forEach(item => {
+          item.classList.remove('active');
+        });
+        if (!isActive) {
+          faqItem.classList.add('active');
+        }
+      });
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Helping the Hotties よくある質問。ゲームダウンロード、システム要件、プレイ方法などのFAQをご覧ください。">
+  <meta name="keywords" content="Helping the Hotties FAQ, よくある質問, ダウンロード, インストール, トラブルシューティング">
+  <meta property="og:title" content="よくある質問 - Helping the Hotties">
+  <meta property="og:description" content="Helping the Hotties に関するよくある質問と回答をご覧ください。">
+  <meta property="og:url" content="https://helpingthehotties.com/ja/faq/">
+  <meta property="og:site_name" content="Helping the Hotties">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="zh_CN">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta name="robots" content="index, follow">
+  
+  <link rel="alternate" hreflang="en" href="https://helpingthehotties.com/faq/" />
+  <link rel="alternate" hreflang="zh" href="https://helpingthehotties.com/zh/faq/" />
+  <link rel="alternate" hreflang="es" href="https://helpingthehotties.com/es/faq/" />
+  <link rel="alternate" hreflang="ja" href="https://helpingthehotties.com/ja/faq/" />
+  <link rel="alternate" hreflang="x-default" href="https://helpingthehotties.com/faq/" />
+  <link rel="canonical" href="https://helpingthehotties.com/ja/faq/" />
+
+  <title>よくある質問 - Helping the Hotties</title>
+  <link rel="stylesheet" href="../../styles.css">
+  <style>
+    .faq-container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 40px 0;
+    }
+    .faq-item {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      margin-bottom: 16px;
+      overflow: hidden;
+    }
+    .faq-question {
+      padding: 20px;
+      background: var(--card);
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-weight: 600;
+      color: var(--text);
+      transition: background 0.3s;
+    }
+    .faq-question:hover {
+      background: rgba(255, 107, 157, 0.1);
+    }
+    .faq-question.active {
+      color: var(--primary);
+    }
+    .faq-toggle {
+      font-size: 20px;
+      transition: transform 0.3s;
+    }
+    .faq-item.active .faq-toggle {
+      transform: rotate(180deg);
+    }
+    .faq-answer {
+      padding: 20px;
+      color: var(--muted);
+      border-top: 1px solid var(--border);
+      display: none;
+      line-height: 1.8;
+    }
+    .faq-item.active .faq-answer {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="container">
+      <div class="nav-content">
+        <a href="/ja/" class="logo">
+          <span>🎮</span>
+          <span>Helping the Hotties</span>
+        </a>
+        <div class="nav-menu">
+          <a href="/ja/#features" class="nav-link">特徴</a>
+          <a href="/ja/#characters" class="nav-link">キャラクター</a>
+          <a href="/ja/#download" class="nav-link">ダウンロード</a>
+          <a href="/ja/faq/" class="nav-link active">FAQ</a>
+        </div>
+        <div class="lang-switcher">
+          <a href="/faq/" class="lang-link">EN</a>
+          <a href="/zh/faq/" class="lang-link">中文</a>
+          <a href="/es/faq/" class="lang-link">ES</a>
+          <a href="/ja/faq/" class="lang-link active">日本語</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <section class="features">
+    <div class="container">
+      <h1 class="section-title">よくある質問</h1>
+      
+      <div class="faq-container">
+        <div class="faq-item active">
+          <div class="faq-question">
+            <span>Helping the Hotties とは何ですか？</span>
+            <span class="faq-toggle">▼</span>
+          </div>
+          <div class="faq-answer">
+            Helping the Hotties は、インディーゲーム開発者 xRedGames による選択重視のビジュアルノベルRPGです。4人のキャラクターとの関係性を築きながら、物語を進めていきます。複数のエンディングと分岐ルートを持ち、あなたの選択が物語の結末を決定します。
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>どのプラットフォームでプレイできますか？</span>
+            <span class="faq-toggle">▼</span>
+          </div>
+          <div class="faq-answer">
+            Windows、macOS、Linux、Android に対応しています。デスクトップ版、ポータブル版、モバイル版など複数の配布形式を予定しております。詳細は<a href="/ja/#download" style="color: var(--primary); text-decoration: underline;">ダウンロード</a>ページをご確認ください。
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>DRM は含まれていますか？</span>
+            <span class="faq-toggle">▼</span>
+          </div>
+          <div class="faq-answer">
+            いいえ。Helping the Hotties は完全なDRMフリー版です。購入後はオフラインでも、複数のデバイスでもプレイできます。
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>ゲームをプレイするのに必要なスペックは？</span>
+            <span class="faq-toggle">▼</span>
+          </div>
+          <div class="faq-answer">
+            <strong>最小要件：</strong><br>
+            - OS: Windows 10 / macOS 10.10+<br>
+            - CPU: デュアルコア 2.0 GHz<br>
+            - RAM: 8 GB<br>
+            - ストレージ: 5 GB 空き容量<br><br>
+            <strong>推奨要件：</strong><br>
+            - OS: Windows 11 / macOS 10.12+<br>
+            - CPU: クワッドコア 3.0 GHz 以上<br>
+            - RAM: 16 GB<br>
+            - ストレージ: 8 GB 空き容量（SSD推奨）
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>ゲームはどのくらいプレイできますか？</span>
+            <span class="faq-toggle">▼</span>
+          </div>
+          <div class="faq-answer">
+            メインストーリーは約11時間、サイドコンテンツを含めると19.5時間です。複数のエンディングと分岐ルートがあり、すべてをコンプリートするには約57時間の時間が必要です。
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>セーブ機能はありますか？</span>
+            <span class="faq-toggle">▼</span>
+          </div>
+          <div class="faq-answer">
+            はい。複数のセーブスロットがあります。分岐ポイント直前にセーブして、異なるルートを試すことができます。
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>言語サポートについて教えてください</span>
+            <span class="faq-toggle">▼</span>
+          </div>
+          <div class="faq-answer">
+            Helping the Hotties は複数の言語に対応しています：<br>
+            - 英語<br>
+            - 日本語<br>
+            - 中国語（簡体字）<br>
+            - スペイン語<br><br>
+            ゲーム内の設定から言語を切り替えることができます。
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>キャラクターは何人ですか？</span>
+            <span class="faq-toggle">▼</span>
+          </div>
+          <div class="faq-answer">
+            4人の主要キャラクター（Mira、Roxy、Luna、Kai）と、監督役のEveが登場します。各キャラクターは独自のストーリーアークを持ち、あなたの選択によって関係性が変化します。
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>複数のエンディングがありますか？</span>
+            <span class="faq-toggle">▼</span>
+          </div>
+          <div class="faq-answer">
+            はい。あなたの選択によって、複数の異なるエンディングを体験できます。最初のプレイでは物語を楽しみ、その後別の選択肢を試して新しいエンディングを目指すことができます。
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>無料でダウンロードできますか？</span>
+            <span class="faq-toggle">▼</span>
+          </div>
+          <div class="faq-answer">
+            はい。Helping the Hotties は完全無料でダウンロードしてプレイできます。隠れた有料要素やプレミアム機能もありません。
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>インストール方法を教えてください</span>
+            <span class="faq-toggle">▼</span>
+          </div>
+          <div class="faq-answer">
+            1. <a href="/ja/#download" style="color: var(--primary); text-decoration: underline;">ダウンロード</a>ページから適切なバージョンを選択します<br>
+            2. ファイルをダウンロードして解凍します<br>
+            3. 実行ファイルを起動してゲームを開始します<br><br>
+            DRMフリーのため、インストールの手順は最小限です。
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>技術サポートを受けられますか？</span>
+            <span class="faq-toggle">▼</span>
+          </div>
+          <div class="faq-answer">
+            問題が発生した場合は、<a href="/ja/help/" style="color: var(--primary); text-decoration: underline;">ヘルプセンター</a>をご覧いただくか、<a href="/ja/contact/" style="color: var(--primary); text-decoration: underline;">お問い合わせフォーム</a>からご連絡ください。開発チームが対応いたします。
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>ゲームをより楽しむコツはありますか？</span>
+            <span class="faq-toggle">▼</span>
+          </div>
+          <div class="faq-answer">
+            以下の点をお勧めします：<br>
+            - 最初のプレイでは直感的に選択を進める<br>
+            - セーブ機能を活用して、異なるルートを試す<br>
+            - キャラクターの会話に注目し、背景にある感情を感じ取る<br>
+            - 複数のエンディングを目指して周回プレイを楽しむ
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>ゲームについてさらに質問がある場合</span>
+            <span class="faq-toggle">▼</span>
+          </div>
+          <div class="faq-answer">
+            このFAQで答えが見つからない場合は、<a href="/ja/contact/" style="color: var(--primary); text-decoration: underline;">お問い合わせフォーム</a>からお気軽にご連絡ください。できるだけ早くご回答いたします。
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>ゲーム</h3>
+          <a href="/ja/">ホーム</a>
+          <a href="/ja/#characters">キャラクター</a>
+          <a href="/ja/#features">特徴</a>
+          <a href="/ja/#download">ダウンロード</a>
+        </div>
+        <div class="footer-section">
+          <h3>サポート</h3>
+          <a href="/ja/help/">ヘルプセンター</a>
+          <a href="/ja/faq/">よくある質問</a>
+          <a href="/ja/contact/">お問い合わせ</a>
+        </div>
+        <div class="footer-section">
+          <h3>法律</h3>
+          <a href="/ja/privacy/">プライバシーポリシー</a>
+          <a href="/ja/terms/">利用規約</a>
+        </div>
+        <div class="footer-section">
+          <h3>フォローする</h3>
+          <a href="https://www.gog.com/en/game/helping_the_hotties" target="_blank">GOG ページ</a>
+          <a href="https://twitter.com/HelpingHotties" target="_blank">Twitter</a>
+          <a href="https://discord.gg/helpinghotties" target="_blank">Discord</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 xRedGames. 全著作権所有。これはファンメイドのウェブサイトです。</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // FAQ toggle functionality
+    document.querySelectorAll('.faq-question').forEach(question => {
+      question.addEventListener('click', function() {
+        const faqItem = this.parentElement;
+        const isActive = faqItem.classList.contains('active');
+        
+        // Close all FAQs
+        document.querySelectorAll('.faq-item').forEach(item => {
+          item.classList.remove('active');
+        });
+        
+        // Open the clicked one if it wasn't active
+        if (!isActive) {
+          faqItem.classList.add('active');
+        }
+      });
+    });
+  </script>
+</body>
+</html>
