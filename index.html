@@ -59,9 +59,71 @@
     "url": "https://helpingthehotties.com/"
   }
   </script>
+  
+  <!-- WebPage Structured Data with Publication Dates -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Helping the Hotties - Free Download | Official Visual Novel Game",
+    "url": "https://helpingthehotties.com/",
+    "description": "Download Helping the Hotties complete edition for free. Visual novel RPG game with English voice acting. Windows, Mac, Linux, Android support. DRM-Free.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "xRedGames",
+      "url": "https://helpingthehotties.com/"
+    },
+    "datePublished": "2023-08-31",
+    "dateModified": "2026-02-06",
+    "inLanguage": "en-US",
+    "isAccessibleForFree": true,
+    "image": "https://helpingthehotties.com/images/screenshot1.jpg"
+  }
+  </script>
+  
+  <!-- Organization Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "xRedGames",
+    "url": "https://helpingthehotties.com/",
+    "description": "xRedGames - Developing amazing visual novel games for everyone",
+    "sameAs": [
+      "https://twitter.com/HelpingHotties",
+      "https://discord.gg/helpinghotties",
+      "https://www.gog.com/en/game/helping_the_hotties"
+    ],
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "Customer Support",
+      "url": "https://helpingthehotties.com/contact/"
+    }
+  }
+  </script>
+  
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <!-- Breadcrumb Navigation -->
+  <nav class="breadcrumb" aria-label="breadcrumb">
+    <div class="container">
+      <ol itemscope itemtype="https://schema.org/BreadcrumbList" style="display: flex; gap: 0; margin: 0; padding: 8px 0; font-size: 13px; color: var(--muted);">
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" style="display: flex; align-items: center;">
+          <a itemprop="item" href="https://helpingthehotties.com/" style="color: var(--primary); text-decoration: none;">
+            <span itemprop="name">Home</span>
+          </a>
+          <meta itemprop="position" content="1" />
+          <span style="margin: 0 8px;">›</span>
+        </li>
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <span itemprop="name">Official Game Page</span>
+          <meta itemprop="position" content="2" />
+        </li>
+      </ol>
+    </div>
+  </nav>
+  
   <!-- Navigation -->
   <nav class="nav">
     <div class="container">

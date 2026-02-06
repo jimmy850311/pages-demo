@@ -1,0 +1,49 @@
+Google Search Console 索引请求清单
+=====================================
+请在 Search Console 中逐个点击"请求编入索引"
+
+优先级 1 - 主要页面（立即请求）：
+https://helpingthehotties.com/
+https://helpingthehotties.com/zh/
+https://helpingthehotties.com/es/
+https://helpingthehotties.com/ja/
+
+优先级 2 - 核心内容页（24小时内请求）：
+https://helpingthehotties.com/faq/
+https://helpingthehotties.com/zh/faq/
+https://helpingthehotties.com/es/faq/
+https://helpingthehotties.com/ja/faq/
+https://helpingthehotties.com/contact/
+https://helpingthehotties.com/zh/contact/
+https://helpingthehotties.com/es/contact/
+https://helpingthehotties.com/ja/contact/
+
+优先级 3 - 支持页面（48小时内请求）：
+https://helpingthehotties.com/help/
+https://helpingthehotties.com/zh/help/
+https://helpingthehotties.com/es/help/
+https://helpingthehotties.com/ja/help/
+https://helpingthehotties.com/privacy/
+https://helpingthehotties.com/zh/privacy/
+https://helpingthehotties.com/es/privacy/
+https://helpingthehotties.com/ja/privacy/
+https://helpingthehotties.com/terms/
+https://helpingthehotties.com/zh/terms/
+https://helpingthehotties.com/es/terms/
+https://helpingthehotties.com/ja/terms/
+
+操作步骤：
+1. 进入 Search Console → 网址检查（左上角搜索框）
+2. 粘贴上述 URL 之一
+3. 点击"请求编入索引"
+4. 等待处理（每个 URL 约 1-2 分钟）
+5. 重复 1-4 步骤处理所有 URL
+
+注意事项：
+- 每天限额约 10-20 个 URL 请求
+- 按优先级分批处理
+- 已提交 sitemap，Google 会自动抓取其他页面
+- 预计 24-72 小时内开始收录
+
+站点地图已提交：
+https://helpingthehotties.com/sitemap.xml (包含所有 24 个页面)
